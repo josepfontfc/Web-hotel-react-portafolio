@@ -1,0 +1,220 @@
+.contact-form {
+  justify-content: space-around;
+  padding: 20px;
+  display: flex;
+}
+
+.titulo-form {
+  padding: 20px;
+  font-size: 35px;
+  font-family: titulos;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.form-group-button {
+  width: 100%;
+}
+
+.label-formulario {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  width: 50%;
+}
+
+input[type="text"],
+input[type="email"] {
+  resize: vertical;
+  margin: 10px;
+  width: 50%;
+  border: 2px solid #080808;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  margin-top: 10px;
+  padding: 20px;
+  width: 50%;
+  border: 2px solid #060606;
+  border-radius: 4px;
+}
+form button {
+  margin: 10px;
+  margin-left: 400px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.foto-form{
+border-radius: 5px;
+}
+/* Tablets estándar (vertical) */
+@media (min-width: 600px) and (max-width: 900px) {
+  .titulo-form {
+    text-align: center;
+  }
+  .contact-form {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-form-container {
+    width: 90%;
+  }
+
+  .form-group {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 130px;
+  }
+  form button {
+    margin-left: 130px;
+
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: white;
+    width: 20%;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    padding: 7px;
+  }
+  textarea {
+    padding: 30px;
+  }
+  .contenedor-foto-form {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  .foto-form {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+
+
+/* Tablets grandes (horizontal) */
+@media (min-width: 900px) and (max-width: 1200px) {
+  .titulo-form {
+    text-align: center;
+  }
+  .contact-form {
+    width: 100%;
+    flex-direction: column;
+  }
+  .contact-form-container {
+    width: 90%;
+  }
+
+  .form-group {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 300px;
+  }
+  form button {
+    margin-left: 300px;
+
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: white;
+    width: 10%;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+  }
+  textarea {
+    padding: 50px;
+  }
+
+  .contenedor-foto-form {
+    width: 50%;
+    margin: 10px auto;
+  }
+
+  .foto-form {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+
+/* Estilos para móviles */
+
+@media (max-width: 480px) {
+  .contact-form {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-form-container {
+    width: 90%;
+  }
+
+  form button {
+    margin: 10px auto;
+
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: white;
+    width: 80%;
+  }
+
+  .form-group {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-group-button {
+    text-align: center;
+    width: 90%;
+  }
+
+  .label-formulario {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    resize: vertical;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  textarea {
+    resize: vertical;
+
+    padding: 20px;
+    width: 80%;
+    border: 2px solid #060606;
+    border-radius: 4px;
+    margin: 10px auto;
+  }
+
+  .contenedor-foto-form {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .foto-form {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}

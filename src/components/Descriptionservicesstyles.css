@@ -1,0 +1,78 @@
+.contenedor-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contenedor-descripcion {
+  text-align: center;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.foto-servicio{
+
+  border-radius: 5px;
+}
+
+/* Tablets estándar (vertical) */
+@media (min-width: 600px) and (max-width: 900px) {
+  .contenedor-principal {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .foto-servicio {
+    object-fit: contain;
+    width: 90%;
+    height: 100%;
+  }
+  .contenedor-descripcion {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Tablets grandes (horizontal) */
+@media (min-width: 900px) and (max-width: 1200px) {
+  .contenedor-principal {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .foto-servicio {
+    object-fit: contain;
+    width: 90%;
+    height: 100%;
+  }
+  .contenedor-descripcion {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+
+/* Estilos para móviles */
+@media (max-width: 480px) {
+  .contenedor-principal {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px; /* Espacio entre cada uno de los elementos */
+  }
+
+  .foto-servicio {
+    object-fit: contain;
+    width: 90%;
+    height: 100%;
+  }
+  .contenedor-descripcion {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,71 @@
+.contenedor-filtro {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.filtro-habitaciones {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.titulo-filtro-habitaciones {
+  margin-top: 15px;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-family: titulos;
+}
+.label-roomfilter {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+
+.contenedor-filtro-habitacion {
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo-resultados {
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .contenedor-filtro-habitacion {
+    display: flex;
+    flex-direction: column;
+  }
+  select {
+    width: 30%;
+    margin: 0 auto;
+  }
+  input[type="range"] {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .contenedor-filtro-habitacion {
+    display: flex;
+    flex-direction: column;
+  }
+  select {
+    width: 30%;
+    margin: 0 auto;
+  }
+  input[type="range"] {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .contenedor-filtro-habitacion {
+    display: flex;
+    flex-direction: column;
+  }
+}
