@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Web-hotel-react-portafolio/static/css/main.d2ee71e9.css",
+    "main.js": "/Web-hotel-react-portafolio/static/js/main.bec1cd4f.js",
+    "static/media/hotel-sala.jpg": "/Web-hotel-react-portafolio/static/media/hotel-sala.59c9d4719001b2d7bf38.jpg",
+    "static/media/terraza-hotel.jpg": "/Web-hotel-react-portafolio/static/media/terraza-hotel.2a8bbe59f5a701d95a7d.jpg",
+    "static/media/restaurante-hotel.jpg": "/Web-hotel-react-portafolio/static/media/restaurante-hotel.d30e5bbdaebcdc788fe0.jpg",
+    "static/media/Familyroom.jpg": "/Web-hotel-react-portafolio/static/media/Familyroom.b7b5b901e727ae0b2793.jpg",
+    "static/media/Singleroom.jpg": "/Web-hotel-react-portafolio/static/media/Singleroom.533539fa3fd3b37ccc2c.jpg",
+    "static/media/Doubleroom.jpg": "/Web-hotel-react-portafolio/static/media/Doubleroom.47c8bb0831592c9a3117.jpg",
+    "static/media/PTSerif-Bold.ttf": "/Web-hotel-react-portafolio/static/media/PTSerif-Bold.baec85e607f452497274.ttf",
+    "static/media/Poppins-Light.ttf": "/Web-hotel-react-portafolio/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Suite.jpg": "/Web-hotel-react-portafolio/static/media/Suite.5ae1a4fd97df4c8006f4.jpg",
+    "static/media/entrada-hotel.jpg": "/Web-hotel-react-portafolio/static/media/entrada-hotel.02a533b3fb5209532004.jpg",
+    "static/media/bar-hotel.jpg": "/Web-hotel-react-portafolio/static/media/bar-hotel.5ae5ef4cf22f9b64633a.jpg",
+    "static/media/gimnasio-hotel.jpg": "/Web-hotel-react-portafolio/static/media/gimnasio-hotel.7a6b876e59dfcbf602a0.jpg",
+    "static/media/piscina-hotel.jpg": "/Web-hotel-react-portafolio/static/media/piscina-hotel.461488289e6cdb317104.jpg",
+    "index.html": "/Web-hotel-react-portafolio/index.html",
+    "main.d2ee71e9.css.map": "/Web-hotel-react-portafolio/static/css/main.d2ee71e9.css.map",
+    "main.bec1cd4f.js.map": "/Web-hotel-react-portafolio/static/js/main.bec1cd4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2ee71e9.css",
+    "static/js/main.bec1cd4f.js"
+  ]
+}
