@@ -38,14 +38,14 @@ input[type="email"] {
 textarea {
   resize: vertical;
   margin-top: 10px;
-  padding: 20px;
+  padding: 50px;
   width: 50%;
   border: 2px solid #060606;
   border-radius: 4px;
 }
 form button {
   margin: 10px;
-  margin-left: 400px;
+  margin-left: 500px;
   padding: 10px 20px;
   border-radius: 4px;
   background-color: white;
@@ -181,8 +181,8 @@ border-radius: 5px;
   }
 
   .form-group-button {
-    text-align: center;
-    width: 90%;
+    margin-left:30px;
+    width: 40%;
   }
 
   .label-formulario {
